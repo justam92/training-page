@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>O mnie</title>
+
+	<link rel="stylesheet" type="text/css" href="stylesheet/main.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet/formcontact.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<script type="text/javascript" href="javascript/main.js"></script>
+</head>
+<body>
+	<article id="main">
+		<div id="mainImage"><img src="img/cr_img_1.jpg"></div>
+		<nav id="navigation">
+			<ul>
+				<li><a href="index.html">Strona główna</a></li>
+				<li><a href="aboutme.html">O mnie</a></li>
+				<li><a href="portfolio.html">Portfolio</li>
+				<li><a href="#">Kontakt</a></li>
+			</ul>
+		</nav>
+
+		<form id="contact">
+			<ul>
+				<li>
+					<input type="text" placeholder="Imię" onfocus="this.placeholder=''" onblur="this.placeholder='Imię'" required autofocus="Imię">
+				</li>
+				<li>
+					<input type="text" placeholder="Nazwisko" onfocus="this.placeholder=''" onblur="this.placeholder='Nazwisko'" required>
+				</li>
+				<li>
+					<input class="custom-input" type="e-mail" placeholder="e-mail" onfocus="this.placeholder=''" onblur="this.placeholder='e-mail" required>
+				</li>
+				<li>
+					<input class="message-input" placeholder="Twoja wiadomość" onfocus="this.placeholder=''" onblur="this.placeholder='Twoja wiadomość'" required>
+				</li>
+				<li>
+					<input type="submit" name="Send">
+				</li>
+			</ul>
+		</form>
+	</article>
+</body>
+</html>
