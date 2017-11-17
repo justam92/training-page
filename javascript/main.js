@@ -1,14 +1,19 @@
-function countingDown(){
-var today = today.getDate();
-var month = today.getMonth();
-var year = today.getYear();
+function startTime(){
+	var day = new Date();
 
-var hour = today.getHours();
-var minute = today.getMinute();
-var second = today.getSecond();
+	var hour = today.getHours();
+	var minute = today.getMinutes();
+	var second = today.getSeconds();
 
-document.getElementById("time").innerHTML{
-today+"/"+month+"/"+year+"|"+hour+":"+minute+":"+second;
+	minute = checkTime(minute);
+	second = checkTime(second);
 
-setTimeout("countingDown()",1000);
+	document.getElementById("time").innerHTML{
+	hour+":"+minute+":"+second;
+
+	var t = setTimeout("startTime()",1000);
+}
+function checkTime(i) {
+	if (i < 10) {i = "0" +1};
+	return i;
 }
