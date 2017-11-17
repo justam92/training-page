@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "4efb719e797c54b3c58e5ae061d29d53",
+      "css": "droplet",
+      "code": 59392,
+      "src": "entypo"
+    }
+  ]
+}

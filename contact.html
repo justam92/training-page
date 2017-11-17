@@ -8,38 +8,28 @@
 	<link rel="stylesheet" type="text/css" href="stylesheet/formcontact.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	<script type="text/javascript" href="javascript/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="fontello-ac10c8c0/fontello-ac10c8c0/css/fontello.css">
 </head>
 <body>
 	<article id="main">
 		<div id="mainImage"><img src="img/cr_img_1.jpg"></div>
 		<nav id="navigation">
 			<ul>
-				<li><a href="index.html">Strona główna</a></li>
-				<li><a href="aboutme.html">O mnie</a></li>
-				<li><a href="portfolio.html">Portfolio</li>
-				<li><a href="#">Kontakt</a></li>
+				<li><a href="index.html"><i class="demo-icon icon-droplet"></i> Strona główna</a></li>
+				<li><a href="aboutme.html"><i class="demo-icon icon-droplet"></i> O mnie</a></li>
+				<li><a href="portfolio.html"><i class="demo-icon icon-droplet"></i> Portfolio</li>
+				<li><a href="#"><i class="demo-icon icon-droplet"></i> Kontakt</a></li>
 			</ul>
 		</nav>
 
 		<form id="contact">
-			<ul>
-				<li>
-					<input type="text" placeholder="Imię" onfocus="this.placeholder=''" onblur="this.placeholder='Imię'" required autofocus="Imię">
-				</li>
-				<li>
-					<input type="text" placeholder="Nazwisko" onfocus="this.placeholder=''" onblur="this.placeholder='Nazwisko'" required>
-				</li>
-				<li>
-					<input class="custom-input" type="e-mail" placeholder="e-mail" onfocus="this.placeholder=''" onblur="this.placeholder='e-mail" required>
-				</li>
-				<li>
-					<input class="message-input" placeholder="Twoja wiadomość" onfocus="this.placeholder=''" onblur="this.placeholder='Twoja wiadomość'" required>
-				</li>
-				<li>
-					<input type="submit" name="Send">
-				</li>
-			</ul>
+			<input class="main-input" type="text" placeholder="Imię" onfocus="this.placeholder=''" onblur="this.placeholder='Imię'" required autofocus="Imię">
+			<input class="main-input" type="text" placeholder="Nazwisko" onfocus="this.placeholder=''" onblur="this.placeholder='Nazwisko'" required>
+			<input class="main-input" type="e-mail" placeholder="e-mail" onfocus="this.placeholder=''" onblur="this.placeholder='e-mail" required>
+			<input class="message-input" placeholder="Twoja wiadomość" onfocus="this.placeholder=''" onblur="this.placeholder='Twoja wiadomość'" required>
+			<input type="submit" name="Send">
 		</form>
 	</article>
+	<footer>&copy; Wolter Drop, Keep calm and coding</footer>
 </body>
 </html>

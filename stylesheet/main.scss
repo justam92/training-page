@@ -1,3 +1,9 @@
+$font-color: #467302;
+$number-space: 3%;
+$other-number: 5%;
+$bigger-space: 50%;
+$big-space: 25%;
+
 body {
   background-color: #c4f280;
   width: 100%;
@@ -19,14 +25,14 @@ body {
 ul {
   padding-top: 2%;
   list-style: none;
-  margin-left: 3%; }
+  margin-left: $number-space; }
 
 li {
   display: inline-block;
-  margin-left: 5%; }
+  margin-left: $other-number; }
 
 #navigation a:link {
-  color: #467302;
+  color: $font-color;
   text-decoration: none; }
 
 #navigation a:visited {
@@ -34,7 +40,7 @@ li {
   text-decoration: none; }
 
 #navigation a:hover {
-  color: #467302;
+  color: $font-color;
   text-decoration: none; }
 
 #navigation a:active {
@@ -44,65 +50,90 @@ li {
 img {
   width: 100%;
   border-top: solid 1px #D7D9A9;
-  border-top-right-radius: 50%;
-  border-top-left-radius: 50%; }
+  border-top-right-radius: $bigger-space;
+  border-top-left-radius: $bigger-space; }
 
 #text {
-  color: #467302;
+  color: $font-color;
   text-align: justify;
-  padding: 5%;
+  padding: $other-number;
   letter-spacing: 2px; }
 
 h1 {
   text-align: center; }
 
 #contact {
-  margin-left: 25%; }
+  margin-left: $big-space; }
 
 #gif {
-  margin-left: 25%;
-  width: 50%;
-  height: 50%;
+  margin-left: $big-space;
+  width: $bigger-space;
+  height: $bigger-space;
   z-index: 1; }
 
 #myImage {
-  width: 25%;
-  height: 25%;
+  width: $big-space;
+  height: $big-space;
   margin: auto;
-  float: right; }
+  float: right;
+}
 
 footer {
-  color: #467302;
-  margin-top: 3%;
+  color: $font-color;
+  margin-top: $number-space;
   font-size: 10px;
   margin-left: 13%; }
 
 @media screen and (min-width: 500px) and (max-width: 1024px) {
-  body {
-    font-size: 15px; } }
-@media screen and (min-width: 300px) and (max-width: 724px) {
-  body {
-    font-size: 10px; } }
-@media screen and (min-width: 100px) and (max-width: 424px) {
-  body {
-    font-size: 7px; } }
-@media screen and (min-width: 500px) and (max-width: 1024px) {
-  #navigation {
-    font-size: 20px; } }
-@media screen and (min-width: 300px) and (max-width: 724px) {
-  #navigation {
-    font-size: 15px; } }
-@media screen and (min-width: 100px) and (max-width: 424px) {
-  #navigation {
-    font-size: 10px; } }
-@media screen and (min-width: 500px) and (max-width: 1024px) {
-  footer {
-    font-size: 8px; } }
-@media screen and (min-width: 300px) and (max-width: 724px) {
-  footer {
-    font-size: 6px; } }
-@media screen and (min-width: 100px) and (max-width: 424px) {
-  footer {
-    font-size: 4px; } }
+body {
+  font-size: 15px;
+}
+}
 
-/*# sourceMappingURL=main.css.map */
+@media screen and (min-width: 300px) and (max-width: 724px) {
+body {
+  font-size: 10px;
+}
+}
+
+@media screen and (min-width: 100px) and (max-width: 424px) {
+body {
+  font-size: 7px;
+}
+}
+
+@media screen and (min-width: 500px) and (max-width: 1024px) {
+#navigation {
+  font-size: 20px;
+}
+}
+
+@media screen and (min-width: 300px) and (max-width: 724px) {
+#navigation {
+  font-size: 15px;
+}
+}
+
+@media screen and (min-width: 100px) and (max-width: 424px) {
+#navigation {
+  font-size: 10px;
+}
+}
+
+@media screen and (min-width: 500px) and (max-width: 1024px) {
+footer {
+  font-size: 8px;
+}
+}
+
+@media screen and (min-width: 300px) and (max-width: 724px) {
+footer {
+  font-size: 6px;
+}
+}
+
+@media screen and (min-width: 100px) and (max-width: 424px) {
+footer {
+  font-size: 4px;
+}
+}
